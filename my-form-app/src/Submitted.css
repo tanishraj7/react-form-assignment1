@@ -1,0 +1,72 @@
+/* Apply the same font and background as the form */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+/* Container for submitted details */
+div {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h6{
+  text-align: center;
+  color: grey;
+  font-size: xx-small;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+  text-align: left;
+}
+
+li {
+  background: #f0f4ff;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Key-Value formatting */
+li strong {
+  color: #333;
+  margin-right: 6px;
+}
+
+/* Button styling */
+button {
+  background-color: #0077ff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005fcc;
+}

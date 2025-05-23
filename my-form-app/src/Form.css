@@ -1,0 +1,95 @@
+/* Apply basic reset and font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+h6{
+  text-align: center;
+  color: grey;
+  font-size: xx-small;
+}
+
+/* Style the form container */
+form {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+/* Form heading */
+form > h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Style all inputs and selects */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 10px 0 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+  font-size: 14px;
+}
+
+/* Checkbox inline label */
+form label {
+  display: flex;
+  align-items: center;
+  margin: 5px 0 15px 0;
+  font-size: 14px;
+}
+
+/* When input is focused */
+form input:focus,
+form select:focus {
+  border-color: #0077ff;
+  outline: none;
+}
+
+/* Error message styling */
+form span {
+  color: red;
+  font-size: 13px;
+  margin-top: -5px;
+  display: block;
+}
+
+/* Style the submit button */
+form button[type="submit"] {
+  width: 100%;
+  background-color: #0077ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover:not(:disabled) {
+  background-color: #005fcc;
+}
+
+form button[type="submit"]:disabled {
+  background-color: #a0c4ff;
+  cursor: not-allowed;
+}
